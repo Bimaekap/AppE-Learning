@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #E0F4FF;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 20vw;
+    height: 6vh;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+td {
+    height: 4vh;
+    border: 3px solid #b3b3b3;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

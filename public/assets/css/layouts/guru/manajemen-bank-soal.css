@@ -1,0 +1,119 @@
+.icon-crud-guru-size {
+    width: 4%;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.btn-add-soal {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.btn-contoh-excel {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #363062;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.btn-upload-excel {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #4bccbf;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.btn-add-soal:hover {
+    background-color: #cacaca;
+}
+
+.btn-contoh-excel:hover {
+    background-color: #4d458c;
+}
+
+.btn-upload-excel:hover {
+    background-color: #2d9596;
+}
+
+.icon-crud-master-size {
+    width: 10%;
+    position: relative;
+    justify-content: center;
+    top: 3;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-master-size-bank-soal {
+    width: 12%;
+    position: relative;
+    justify-content: center;
+    top: 3;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-master-size-pilgan {
+    width: 25%;
+    position: relative;
+    justify-content: center;
+    top: 3;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-master {
+    padding: 0.6rem 1rem 0.5rem 1rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.icon-delete {
+    position: relative;
+    top: 4;
+    width: 9%;
+}
+
+.icon-delete-pilgan {
+    position: relative;
+    top: 4;
+    width: 20%;
+}
+.icon-crud-master-delete {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: #ffb534;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+.icon-crud-master:hover {
+    background-color: #0c356a;
+}
+
+.icon-crud-master-delete:hover {
+    background-color: #ffa732;
+}
+
+.td-pilgan {
+    width: 1%;
+}
+
+.td-soal {
+    width: 30%;
+}

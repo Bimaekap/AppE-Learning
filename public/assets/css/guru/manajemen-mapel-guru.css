@@ -1,0 +1,110 @@
+.flex {
+    display: flex;
+}
+
+.cpanel-materi-guru {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.manajemen-materi-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 2rem;
+}
+
+.manajemen-materi-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.tabel-data-manajemen-materi-guru {
+    position: absolute;
+    border-radius: 8px;
+    top: 42%;
+    width: 78vw;
+    height: 55vh;
+    left: 20%;
+    background-color: #fdeeee;
+}
+
+.header-tabel-data-manajemen-materi-guru {
+    font-size: 1rem;
+    width: 78vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    background-color: #ff6969;
+    padding: 1rem;
+}
+
+.header-tabel-data-manajemen-materi-guru h1 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.btn-tambah-data {
+    font-size: 0.8rem;
+    width: fit-content;
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    background-color: #141e46;
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 60vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    border: 3px solid #b3b3b3;
+}
+
+.th-nomor {
+    width: 8vw;
+}
+
+.th-mapel {
+    width: 30%;
+}
+
+.th-icon {
+    width: 10vw;
+}
+td {
+    height: 7vh;
+    font-size: 0.9rem;
+    border: 3px solid #b3b3b3;
+}
+
+.icon-crud {
+    width: 40%;
+}

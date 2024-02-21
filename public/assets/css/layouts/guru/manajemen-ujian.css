@@ -1,0 +1,262 @@
+.btn-ctn {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    right: 20;
+    width: 12%;
+    top: 7;
+    position: absolute;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;
+    transition: 0.3s;
+}
+
+.btn-lctn:hover {
+    background-color: #cacaca;
+}
+.btn-soal-position {
+    text-align: center;
+}
+
+.btn-soal-position a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 0 1rem 0 1rem;
+}
+
+.btn-essay {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #af2655;
+}
+
+.icon-essay {
+    width: 3.7%;
+    background-color: #860a35;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -17px;
+}
+
+.btn-pilgan {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #435585;
+}
+
+.icon-pilgan {
+    width: 3.7%;
+    background-color: #818fb4;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -18px;
+}
+
+.th-size-1 {
+    width: 5vw;
+}
+
+
+.th-size-2 {
+    width: 50%;
+}
+.btn-link--sub-components-kembali {
+    position: absolute;
+    background-color: #ffc245;
+    text-decoration: none;
+    font-size: 0.77rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 6.2vw;
+}
+
+.btn-link--sub-components-kembali:hover {
+    background-color: #ffc5c5;
+}
+
+.img-icon--sub-components-kembali {
+    width: 14%;
+    top: 2px;
+    position: relative;
+}
+/* tabel */
+
+.table-daftarsoal-ujian {
+    border-collapse: collapse;
+    display: flex;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.table-daftarsoal-ujian span {
+    position: relative;
+}
+
+.thead-daftarsoal-ujian {
+    /* width: 100vw; */
+    background-color: black;
+    display: flex;
+}
+
+.tbody-daftarsoal-ujian {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    display: contents;
+    background-color: red;
+}
+.table-daftarsoal-ujian th {
+    color: black;
+    width: 37.2vw;
+    height: 9vh;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: none;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.tbody-daftarsoal-ujian td {
+    height: 9vh;
+    width: 38.5vw;
+    border: none;
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+.tr-three {
+    background-color: white;
+}
+
+.tr-three td {
+    border: none;
+}
+.th-color-one {
+    background-color: #ffc5c5;
+}
+
+.th-color-two {
+    background-color: #ec8f5e;
+}
+.icon-crud {
+    width: 42%;
+}
+
+.icon-crud-trach-can {
+    width: 35%;
+}
+
+.icon-crud-essay {
+    width: 15%;
+}
+
+.icon-crud-master-size {
+    width: 10%;
+    position: relative;
+    justify-content: center;
+    top: 3;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-size {
+    width: 15%;
+    position: relative;
+    justify-content: center;
+    top: 3  ;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-master-delete {
+    padding: 0.5rem .7rem .7rem 1rem;
+    background-color: #C70039;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    position: relative;
+    font-size: 0.8rem;
+    top: -4;
+    transition: 0.3s;
+}
+.icon-crud-master:hover {
+    background-color: #0c356a;
+}
+
+.icon-crud-master-delete:hover {
+    background-color: #FF6969;
+}
+
+.icon-crud-master {
+    padding: 0.6rem.7rem 0.5rem 1rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    position: relative;
+    top: -4;
+    transition: 0.3s;
+}
+
+.icon-delete {
+    position: relative;
+    width: 10%;
+}
+
+.lihat-soal {
+    background-color: #ef4040;
+}
+
+.lihat-soal:hover {
+    background-color: #b31312;
+}
+
+.file {
+    background-color: #363062;
+}
+
+.file:hover {
+    background-color: #427d9d;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color: #E0F4FF;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 20vw;
+    height: 6vh;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+td {
+    height: 4vh;
+    border: 3px solid #b3b3b3;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: #DCF2F1;
+    padding: .8rem 0;
+}

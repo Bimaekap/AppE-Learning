@@ -1,0 +1,130 @@
+.btn-soal-position {
+    text-align: center;
+}
+
+.btn-soal-position a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 0 1rem 0 1rem;
+}
+
+.btn-essay {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #af2655;
+}
+
+.icon-essay {
+    width: 3.7%;
+    background-color: #860a35;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -17px;
+}
+
+.btn-pilgan {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #435585;
+}
+
+.icon-pilgan {
+    width: 3.7%;
+    background-color: #818fb4;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -18px;
+}
+
+.btn-link--sub-components-kembali {
+    position: absolute;
+    background-color: #ffc245;
+    text-decoration: none;
+    font-size: 0.77rem;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 6.2vw;
+}
+
+.img-icon--sub-components-kembali {
+    width: 14%;
+    top: 2px;
+    position: relative;
+}
+/* tabel */
+
+.table-daftarsoal-ujian {
+    border-collapse: collapse;
+    display: flex;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.table-daftarsoal-ujian span {
+    position: relative;
+}
+
+.thead-daftarsoal-ujian {
+    /* width: 100vw; */
+    background-color: black;
+    display: flex;
+}
+
+.tbody-daftarsoal-ujian {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    display: contents;
+    background-color: red;
+}
+.table-daftarsoal-ujian th {
+    color: black;
+    width: 37.2vw;
+    height: 9vh;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: none;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.tbody-daftarsoal-ujian td {
+    height: 9vh;
+    width: 38.5vw;
+    border: none;
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+.tr-three {
+    background-color: white;
+}
+
+.tr-three td {
+    border: none;
+}
+.th-color-one {
+    background-color: #ffc5c5;
+}
+
+.th-color-two {
+    background-color: #ec8f5e;
+}
+.icon-crud {
+    width: 42%;
+}
+
+.icon-crud-trach-can {
+    width: 35%;
+}
+
+.icon-crud-essay {
+    width: 15%;
+}

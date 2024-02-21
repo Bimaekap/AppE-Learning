@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+#sidebar {
+    background-color: #219c90;
+    position: relative;
+    z-index: 1;
+    width: 18%;
+    padding: 0 1.5rem 0 1rem;
+    height: 100vh;
+    color: white;
+    box-shadow: 10;
+    margin-right: 1rem;
+}
+
+.sidebar-text {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0rem 1rem 0 2rem;
+}
+
+#sidebar section {
+    margin-top: 10rem;
+    font-weight: medium;
+}
+.user-link {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.user-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 0.7rem;
+}
+
+.text-bagian-kelas {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-kelas-link {
+    list-style: none;
+    width: 100%;
+}
+
+.list-kelas-link a {
+    font-size: 1rem;
+    position: absolute;
+    margin-top: 0.3rem;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.list-kelas-link a:hover {
+    color: #000;
+}
+.list-kelas-link div {
+    margin-bottom: 2rem;
+}
+.a-tag-image {
+    width: 12%;
+    margin-right: 0.8rem;
+}
+
+.text-error {
+    width: fit-content;
+}
+
+.cpanel {
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        background-color: white;
+}
+
+.cpanel-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    top: -60%;
+    border-radius: 8px;
+    position: absolute;
+}
+
+#ctn-card {
+    display: flex;
+}
+
+.card {
+    width: 16vw;
+    background-color: #f7e4e4;
+    height: 14vh;
+    position: relative;
+    margin: 0 1rem 0 1rem;
+    border-radius: 8px;
+}
+
+.card-one::before {
+    content: "";
+    position: absolute;
+    background-color: #ec8f5e;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-two::before {
+    content: "";
+    position: absolute;
+    background-color: #776b5d;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-three::before {
+    content: "";
+    position: absolute;
+    background-color: #435585;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-four::before {
+    content: "";
+    position: absolute;
+    background-color: #557c55;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+#ctn-card h6 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+#ctn-card h1 {
+    font-size: 1.1rem;
+    color: #6c5f5b;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.h6-admin {
+    font-family: "Roboto", sans-serif !important;
+
+}
+.cpanel-image {
+    width: 20%;
+    margin-left: 2.2rem;
+    margin-top: 0.5rem;
+}
+
+.flex-img {
+    display: flex;
+}
+

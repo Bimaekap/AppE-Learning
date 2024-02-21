@@ -1,0 +1,163 @@
+.btn-ctn {
+    padding: 0.6rem 0.8rem 0.6rem 0.3rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    right: 20;
+    top: 5;
+    width: 10%;
+    position: absolute;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.btn-ctn:hover {
+    background-color: #cacaca;
+}
+
+.icon-crud {
+    padding: .5rem .6rem .5rem .7rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    margin: .2rem 0;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.icon-crud-size {
+    width: 10%;
+    position: relative;
+    justify-content: center;
+    top: -2;
+    position: relative;
+    padding: .2rem 0;
+    font-size: .8rem;
+}
+
+.icon-crud-size-delete {
+    width: 38%;
+
+}
+
+.icon-crud-delete {
+    background-color: #C70039;
+    border-radius: 5px;
+margin: 1rem;
+    text-decoration: none;
+    color: black;
+    margin: .4rem 0;
+    position: relative;
+    width: 2.6vw;
+    height: 4.3vh;
+    font-size: 0.8rem;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    top: -5;
+    border: none;
+}
+
+.icon-crud-delete:hover {
+    background-color: #FF6969;
+}
+.icon-crud:hover {
+    background-color: #0c356a;
+}
+
+.icon-crud-master-delete:hover {
+    background-color: #ffa732;
+}
+.bg-text{
+    background-color: #BFCFE7;
+    padding: .5rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    font-size: .7rem;
+    border-radius: 8px;
+}
+
+.th-no{
+    width: 5vw;
+}
+
+.th-hapus {
+    width: 5vw;
+}
+
+.ctn-link-tambah-siswa {
+    width: fit-content;
+    margin:0 !important;
+    position: relative;
+    bottom: 5.5;
+}
+
+.icon-size{
+    width: 10%;
+    position: relative;
+    top: 2px;
+}
+
+.th-size-1 {
+    width: 2vw;
+    padding: .5rem;
+}
+
+.th-size-2 {
+    width: 20%;
+}
+
+.th-size-3 {
+    width: 15%;
+}
+
+.th-size-4{
+    width: 10%;
+}
+
+
+.th-size-5{
+    width: 16%;
+}
+
+.th-size-6{
+    width: 1%;
+    padding: .5rem;
+}
+
+.th-size-7{
+    width: 20%;
+    padding: .5rem;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 100%;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+td {
+    border: 3px solid #b3b3b3;
+    font-size: .8rem;
+    background-color: #DCF2F1;
+    font-weight: 500;
+    padding: 0 .5rem;
+}

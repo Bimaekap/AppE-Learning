@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.cpanel-guru {
+    /* width: 50%; */
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    background-color: white;
+}
+
+.beranda-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    top: -60%;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.cpanel-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.style-td-nama-lessons {
+    background-color: #BFCFE7;
+    padding: .5rem;
+    
+    font-weight: 500;
+    margin-top: .5rem;
+    font-size: .8rem;
+    border-radius: 8px;
+}
+
+
+.style-td-nama-kelas {
+    background-color: #BFCFE7;
+    padding: .5rem;
+    
+    font-weight: 500;
+    margin-top: .5rem;
+    font-size: .8rem;
+    border-radius: 8px;
+}
+
+/* .style-td-nama-lessons:hover{
+    background-color: red;
+} */
+p[class~='style-td-nama-lessons']:hover {
+    background-color: #B6BBC4;
+}
+.beranda-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.flex {
+    display: flex;
+}
+
+#ctn-card {
+    display: flex;
+}
+
+.card {
+    width: 16vw;
+    background-color: #f7e4e4;
+    height: 14vh;
+    position: relative;
+    margin: 0 1rem 0 1rem;
+    border-radius: 8px;
+}
+
+.card-one::before {
+    content: "";
+    position: absolute;
+    background-color: #ec8f5e;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-two::before {
+    content: "";
+    position: absolute;
+    background-color: #776b5d;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-three::before {
+    content: "";
+    position: absolute;
+    background-color: #435585;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+.card-four::before {
+    content: "";
+    position: absolute;
+    background-color: #557c55;
+    width: 1vw;
+    border-radius: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+#ctn-card h6 {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+
+#ctn-card h1 {
+    font-size: 1.1rem;
+    color: #6c5f5b;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.cpanel-image {
+    width: 20%;
+    margin-left: 2.2rem;
+    bottom: -100rem;
+
+    /* margin-top: 0.5rem; */
+}
+
+.flex-img {
+    display: flex;
+}
+
+.tabel-data-mapel-guru {
+    position: absolute;
+    border-radius: 8px;
+    top: 42%;
+    width: 78vw;
+    height: 55vh;
+    left: 20%;
+    background-color: #fdeeee;
+}
+
+.header-tabel-data-mapel-guru {
+    font-size: 1rem;
+    width: 78vw;
+    display: flex;
+    height: 9vh;
+    border-radius: 8px;
+    color: #141e46;
+    background-color: #e7e7e7;
+    padding: 1rem;
+}
+
+.header-tabel-data-mapel-guru h1 {
+    text-transform: uppercase;
+    margin-top: 0.4rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 60vw;
+    height: 7vh;
+    text-align: center;
+    border: 3px solid #b3b3b3;
+}
+
+td {
+    border: 3px solid #b3b3b3;
+}
+
+.icon-crud-master-size {
+    width: 10%;
+    position: relative;
+    justify-content: center;
+    top: 3;
+    margin-right: 0.3rem;
+}
+
+.icon-crud-master {
+    padding: 0.6rem 1rem 0.5rem 1rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.icon-crud-master:hover {
+    background-color: #0c356a;
+}
+
+.icon-crud-master-delete:hover {
+    background-color: #ffa732;
+}
+
+.icon-crud-master-delete {
+    padding: 0.3rem 1rem .5rem 0rem;
+    background-color: #ffb534;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 0.8rem;
+    width: 8rem;
+    font-weight: 500;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.th-no {
+    width: 9vw;
+}
+
+td {
+    background-color: #E0F4FF;
+    font-weight: 500;
+    /* color: white; */
+}

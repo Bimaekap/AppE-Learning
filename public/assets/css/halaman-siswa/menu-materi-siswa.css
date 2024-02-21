@@ -1,0 +1,104 @@
+.flex {
+    display: flex;
+}
+
+.cpanel-materi-siswa {
+    position: absolute;
+    top: 28%;
+    left: 20%;
+}
+
+
+.materi-siswa-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    border-radius: 8px;
+    position: absolute;
+    top: -70;
+}
+
+.materi-siswa-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.tabel-data-materi-siswa {
+    position: absolute;
+    border-radius: 8px;
+    top: 100%;
+    width: 78vw;
+    height: 55vh;
+    left: 20%;
+    background-color: #fdeeee;
+}
+
+.header-tabel-data-materi-siswa {
+    font-size: 1rem;
+    width: 78vw;
+    height: 7vh;
+    display: flex;
+    position: relative;
+    border-radius: 8px;
+    color: white;
+    background-color: #ff6969;
+    padding: 1rem;
+}
+
+.header-tabel-data-materi-siswa h1 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.lihat-materi-image {
+    width: 25%;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 30vw;
+    height: 7vh;
+    font-size: 0.9rem;
+    border: 3px solid #b3b3b3;
+}
+
+.th-no {
+    width: 5vw;
+}
+
+.th-guru {
+    width: 30vw;
+}
+
+.th-tugas {
+width: 10%;
+}
+
+.th-mapel {
+    width: 30%;
+}
+
+.th-lihat {
+    width: 10%;
+}
+td {
+    height: 7vh;
+    font-size: 0.9rem;
+    border: 3px solid #b3b3b3;
+}

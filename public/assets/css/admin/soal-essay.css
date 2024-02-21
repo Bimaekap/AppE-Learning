@@ -1,0 +1,184 @@
+.flex {
+    display: flex;
+}
+
+.icon-a-tag {
+    width: 6%;
+    position: relative;
+    top: 3;
+    margin-right: 0.5rem;
+}
+.btn-tambah-soal-essay {
+    background-color: #ffffff;
+    width: 10vw;
+}
+
+.btn-bank-soal {
+    background-color: #4bccbf;
+    width: 10vw;
+}
+.icon-crud {
+    width: 10%;
+    position: relative;
+    top: -5;
+}
+
+/* Tabel 1 */
+
+.tabel-one {
+    border-collapse: collapse;
+    display: flex;
+    /* margin: 1rem; */
+    border-radius: 8px;
+}
+
+.tabel-one thead {
+    background-color: black;
+    display: flex;
+}
+
+/* Tabel 2 */
+.tabel-two {
+    border-collapse: collapse;
+}
+
+.table-two thead {
+    background-color: black;
+    display: flex;
+}
+table span {
+    position: relative;
+}
+
+.thead-two {
+    background-color: black;
+    color: #f4eae0;
+}
+
+.tbody-one {
+    /* margin-top: 2rem; */
+    text-align: center;
+    font-size: 1.1rem;
+    display: contents;
+    background-color: red;
+}
+
+.tbody-two {
+    /* margin-top: 2rem; */
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+    border-radius: 1px solid black;
+}
+
+.tabel-one th {
+    color: black;
+    width: 13vw;
+    height: 6vh;
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.tabel-two th {
+    color: #919191;
+    width: 20vw;
+    height: 6vh;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+    /* display: flex; */
+}
+
+.tabel-one td {
+    height: 6vh;
+    width: 64.7vw;
+    color: black;
+    font-size: 0.9rem;
+    display: flex;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+.tabel-two td {
+    height: 3vh;
+    width: 38.5vw;
+    color: black;
+    font-size: 0.8rem;
+    border: 2px solid #b3b3b3;
+
+    /* display: flex; */
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+tr {
+    border-radius: 8px;
+}
+
+.tr-one::after {
+    content: "ini";
+    display: flex;
+    position: block;
+    background-color: red;
+}
+
+.tr-three {
+    width: 0.2vw;
+    border-radius: 0px;
+    background-color: #f4eae0;
+}
+.th-color-one {
+    background-color: #ffc5c5;
+}
+
+.th-color-two {
+    background-color: #ec8f5e;
+}
+
+.btn-kembali-ctn a {
+    position: absolute;
+    bottom: 0;
+    background-color: #ffc245;
+    text-decoration: none;
+    font-size: 0.77rem;
+    font-weight: 600;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    left: 20%;
+    width: 6.2vw;
+}
+
+.btn-link--sub-components-essay {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    right: 0;
+    bottom: 8;
+    width: 13%;
+    position: absolute;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.btn-link--sub-components-bank-soal {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    right: 0;
+    bottom: 8;
+    width: 13%;
+    position: absolute;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.icon-back {
+    width: 18%;
+    top: 2px;
+    position: relative;
+}

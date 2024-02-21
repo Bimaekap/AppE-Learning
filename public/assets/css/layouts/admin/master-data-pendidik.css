@@ -1,0 +1,170 @@
+
+.btn-ctn {
+    /* margin-top: -.2rem; */
+    position: absolute;
+    right: 0;
+    width: 18vw;
+
+}
+
+.profile-ctn {
+    padding: 2rem;
+    width: 50%;
+    height: 80%;
+}
+
+.form > * {
+    margin: .5rem;
+}
+.btn-ctn a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;  
+}
+
+.profile-input-style{
+    width: 50%;
+    height: 8%;
+    border-radius: 8px;
+}
+.icon-size {
+    width: 5%;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.btn-simpan {
+    font-size: .8rem;
+    padding: .4rem .8rem;
+    background-color: #2b3499;
+    color: white;
+    text-decoration: none;
+    margin-left: 2.9rem;
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    margin: .1rem;
+    cursor: pointer;
+}
+
+.btn-back-from-profile{
+    font-size: .8rem;
+    padding: .8rem;
+    background-color: #2b3499;
+    color: white;
+    text-decoration: none;
+    margin-left: 2.9rem;
+    border-radius: 8px;
+}
+
+.img-ctn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(229, 196, 196);
+}
+
+
+.btn-one {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #363062;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-two {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #4bccbf;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-one:hover {
+    background-color: #4d458c;
+}
+
+.btn-two:hover {
+    background-color: #2d9596;
+}
+
+.icon-crud {
+    padding: .5rem .6rem .3rem .7rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.icon-crud:hover {
+    background-color: #0c356a;
+}
+.icon-crud-size {
+    width: 50%;
+}
+
+.th-size-1 {
+    width: 2vw;
+    padding: .5rem;
+}
+
+.th-size-2 {
+    width: 10%;
+}
+
+.th-size-3 {
+    width: 40%;
+}
+
+.th-size-4 {
+    width: 20%;
+}
+
+.th-size-5 {
+    width: 15%;
+}
+
+.th-size-6 {
+    width: 10%;
+}
+
+.th-size-7 {
+    width: 50%;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+td {
+    border: 3px solid #b3b3b3;
+    font-size: .8rem;
+    background-color: #DCF2F1;
+    font-weight: 500;
+    padding: .6rem;
+    background-color: #DCF2F1;
+
+}

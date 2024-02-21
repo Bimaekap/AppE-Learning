@@ -1,0 +1,154 @@
+.flex {
+    display: flex;
+}
+
+.cpanel-manajemen-bank-soal {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.manajemen-bank-soal-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.manajemen-bank-soal-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.tabel-data-bank-soal-admin {
+    position: absolute;
+    border-radius: 8px;
+    /* display: flex; */
+    top: 28%;
+    width: fit-content;
+    height: 55vh;
+    width: 78vw;
+    border: 1px solid #b3b3b3;
+
+    left: 20%;
+    background-color: #fdeeee;
+}
+.header-tabel-data-bank-soal-admin {
+    font-size: 1rem;
+    width: 78vw;
+    height: 7vh;
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: #ff6969;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.header-tabel-data-bank-soal-admin h1 {
+    width: 50vw;
+    font-size: 1rem;
+}
+.a-tag-tabel-bank-soal-ctn {
+    width: 50vw;
+    /* vertical-align: middle; */
+    margin-left: 30%;
+    /* display: inline; */
+    margin-bottom: 0.5rem;
+}
+
+.a-tag-tabel-bank-soal-ctn a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.btn-add-soal {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-upload-excel {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #4bccbf;
+    color: black;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.btn-contoh-excel {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #363062;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+}
+.icon-bank-soal {
+    width: 4%;
+    position: relative;
+    top: 3px;
+    right: 5px;
+    /* margin-right: 1re; */
+}
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    /* width: 100vw; */
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 20vw;
+    height: 6vh;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+.no-th {
+    width: 6vw;
+}
+.soal-th {
+    width: 50%;
+}
+.option-th {
+    width: 17vw;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+td {
+    height: 4vh;
+    border: 3px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+.icon-crud {
+    width: 42%;
+}
+
+.icon-crud-trach-can {
+    width: 35%;
+}
+
+.icon-crud-essay {
+    width: 15%;
+}
+
+.td-pilgan {
+    width: 1vw;
+}

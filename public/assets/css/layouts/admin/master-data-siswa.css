@@ -1,0 +1,106 @@
+.btn-ctn {
+    margin-left: 60%;
+    margin-top: -.2rem;
+}
+
+.icon-size{
+    width: 10%;
+    position: relative;
+    top: 2px;
+    right: 5px;
+}
+
+.btn-one {
+    padding: 0.6rem 0.8rem 0.6rem 0.8rem;
+    background-color: #4bccbf;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 1.5rem;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.btn-one:hover {
+    background-color: #2d9596;
+}
+
+.icon-crud{
+    padding: .5rem .6rem .3rem .7rem;
+    background-color: #2b3499;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+
+.icon-crud:hover {
+    background-color: #3468C0;
+}
+
+.icon-crud-size {
+    width: 50%;
+
+  
+}
+.th-size-1 {
+    width: 2vw;
+    padding: .5rem;
+}
+
+.th-size-2 {
+    width: 30vw;
+}
+
+.th-size-2 {
+    width: 25%;
+}
+
+.th-size-3 {
+    width: 40%;
+}
+
+.th-size-4 {
+    width: 20%;
+}
+
+.th-size-5{
+    width: 10%;
+}
+
+
+.th-size-6{
+    width:100%;
+}
+
+
+table {
+    border-collapse: collapse;
+}
+thead {
+    background-color: black;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: medium;
+}
+th {
+    color: #919191;
+    width: 100%;
+    text-align: center;
+    border: 2px solid #b3b3b3;
+    font-size: 0.8rem;
+}
+
+td {
+    border: 3px solid #b3b3b3;
+    font-size: .8rem;
+    background-color: #DCF2F1;
+    font-weight: 500;
+    padding: .6rem;
+}

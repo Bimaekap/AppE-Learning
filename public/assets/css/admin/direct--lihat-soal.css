@@ -1,0 +1,199 @@
+.flex {
+    display: flex;
+}
+
+.cpanel-direct--lihat-soal {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.direct--lihat-soal-ctn {
+    width: 78vw;
+    background-color: #141e46;
+    height: 6vh;
+    border-radius: 8px;
+    position: absolute;
+}
+
+.direct--lihat-soal-ctn h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+}
+
+.tabel-data-direct--lihat-soal {
+    position: absolute;
+    border-radius: 8px;
+    /* display: flex; */
+    top: 28%;
+    width: fit-content;
+    height: 70vh;
+    border: 1px solid #b3b3b3;
+
+    width: 78vw;
+    left: 20%;
+    background-color: #fdeeee;
+}
+
+.header-tabel-data-direct--lihat-soal-admin {
+    font-size: 1rem;
+    width: 78vw;
+    height: 7vh;
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: #ff6969;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.header-tabel-data-direct--lihat-soal-admin h1 {
+    font-size: 1rem;
+    width: 50vw;
+}
+
+.btn-soal-position {
+    text-align: center;
+}
+
+.btn-soal-position a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 0 1rem 0 1rem;
+}
+
+.btn-essay {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #af2655;
+}
+
+.icon-essay {
+    width: 3.7%;
+    background-color: #860a35;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -17px;
+}
+
+.btn-pilgan {
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    background-color: #435585;
+}
+
+.icon-pilgan {
+    width: 3.7%;
+    background-color: #818fb4;
+    border-radius: 15px;
+    position: relative;
+    top: 16px;
+    left: -18px;
+}
+
+.icon-btn-kembali {
+    width: 16%;
+    position: relative;
+    top: 3px;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.btn-kembali {
+    color: black;
+    width: 6vw;
+    position: absolute;
+    right: 8px;
+    top: 13px;
+    height: 4vh;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    font-weight: 500;
+    font-size: 0.85rem;
+    background-color: #ffc245;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+table span {
+    position: relative;
+}
+thead {
+    /* width: 100vw; */
+    background-color: black;
+    display: flex;
+}
+
+tbody {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    display: contents;
+    background-color: red;
+}
+th {
+    color: black;
+    width: 37.2vw;
+    height: 9vh;
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+td {
+    height: 9vh;
+    width: 38.5vw;
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    padding: 1rem 1rem 0.5rem 1rem;
+}
+
+tr {
+    border-radius: 8px;
+}
+
+.tr-one::after {
+    content: "ini";
+    display: flex;
+    position: block;
+    background-color: red;
+}
+
+.tr-three {
+    width: 0.2vw;
+    border-radius: 0px;
+    background-color: #f4eae0;
+}
+.th-color-one {
+    background-color: #ffc5c5;
+}
+
+.th-color-two {
+    background-color: #ec8f5e;
+}
+.icon-crud {
+    width: 42%;
+}
+
+.icon-crud-trach-can {
+    width: 35%;
+}
+
+.icon-crud-essay {
+    width: 15%;
+}

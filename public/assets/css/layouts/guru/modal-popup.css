@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+    --font-satu: "Poppins", sans-serif;
+}
+
+#modal {
+    position: absolute;
+    width: 100.2vw;
+    height: 100.6vh;
+    background-color: #0000007e;
+    margin: -10% 20%;
+    left: -46%;
+    top: -13%;
+    z-index: 2;
+}
+
+#modal-confirm {
+    position: absolute;
+    width: 100vw;
+    height: 100.6vh;
+    background-color: #0000007e;
+    margin: -10% 20%;
+    left: -20%;
+    top: 20%;
+    z-index: 2;
+}
+#modal-ctn {
+    width: 45vw;
+    margin: 8.5% 28%;
+    height: 70vh;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1);
+}
+
+#modal-ctn-data-kelas-guru {
+    width: 45vw;
+    margin: 8.5% 28%;
+    height: 70vh;
+    /* position: absolute; */
+    /* left: 0 !important; */
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1);
+}
+#modal-ctn-tambah-master-mapel {
+    width: 45vw;
+    margin: 8.5% 28%;
+    height: 45vh;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1);
+}
+#modal-ctn-confirm {
+    width: 45vw;
+    margin: 1% 28%;
+    height:50vh;
+    background-color: white;
+    position: absolute;
+    font-size: 1rem;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1);
+}
+
+#modal-ctn-input-nilai {
+    width: 45vw;
+    margin: 8.5% 28%;
+    height: 30vh;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1);
+}
+.head-modal {
+    width: 100%;
+    height: 7vh;
+    background-color: #363062;
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.btn-ctn-modal {
+    position: absolute;
+    right:  50;
+    bottom: 20;
+}
+
+.btn-ctn-modal button {
+    background-color: #ee9322;
+    padding: 0.6rem 1rem;
+    font-size: .8rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.btn-ctn-modal button:hover {
+    background-color: #ffc767;
+}
+
+.btn-ctn-modal a {
+    /* background-color: #f3f3f3; */
+    text-decoration: none;
+    padding: 0.5rem 1.1rem;
+    border: 2px solid #f1efef;
+    border-radius: 8px;
+    color: #c8c8c8;
+    font-size: .8rem;
+
+    transition: 0.3s;
+}
+
+.btn-ctn-modal a:hover {
+    background-color: #302f2f;
+    border: 2px solid #3a3732;
+}
+
+.show {
+    display: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 4% 5%;
+}
+
+label {
+    font-size: .9rem;
+    font-weight: 500;
+    width: 15vw;
+}
+
+.information p {
+    font-size: .8rem;
+    margin-left: 2.3rem;
+}
+
+input[type="text"] {
+    width: 40vw;
+    height: 5vh;
+    margin: 1rem 0rem;
+    border-radius: 8px;
+    border: 2px solid rgb(225, 225, 225);
+}
+
+input::placeholder {
+    font-size: var(--font-satu);
+    padding: 0.5rem;
+    opacity: 0.3;
+
+    font-weight: 100;
+}
+
+input:focus {
+    background-color: rgb(247, 247, 247);
+    border: none;
+}
+
+.custom-field::after {
+    content: attr(aria-label);
+}
+@keyframes popOut {
+    0% {
+        transform: scale(0.5, 0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1, 1);
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.information {
+    color: #c8c8c8;
+}
+
+.information ul,
+li {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+.flex-checkbox {
+    display: flex;
+}
+
+.select-master-kelas {
+    height: 5vh;
+}
+select{
+    height: 2vh;
+    border-radius: 8px;
+    margin-top: .8rem;
+}
+.head-modal-confirm {
+    width: 100%;
+    height: 2h;
+    background-color: #363062;
+    color: white;
+    padding: 1rem;
+    font-weight: 100;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.errors-style {
+    background-color: #ff00006d;
+    margin: 0;
+    font-size: .8rem;
+    border-radius: 8px;
+    color: white;
+    /* width; */
+    text-align: center;
+}
+
+
+#modal-ctn-step-satu {
+    width: 45vw;
+    margin: 1% 28%;
+    height:68vh;
+    background-color: white;
+    position: absolute;
+    font-size: 1rem;
+    top:16%;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1); 
+}
+#modal-ctn-step-dua {
+    width: 45vw;
+    margin: 1% 28%;
+    height:50vh;
+    background-color: white;
+    position: absolute;
+    font-size: 1rem;
+    top:16%;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1); 
+}
+
+#modal-ctn-tambah-siswa {
+    width: 45vw;
+    margin: 1% 28%;
+    height:43vh;
+    background-color: white;
+    position: absolute;
+    font-size: 1rem;
+    top:16%;
+    border-radius: 8px;
+    animation: popOut 0.2s ease-in 0s 1 normal none;
+    justify-content: center;
+    transform: scale(1, 1); 
+}
+
+.input-nilai {
+    height: 2rem;
+    font-weight: 800;
+    padding: .5rem;
+    margin-top: 1rem;
+    width: 5rem;
+}

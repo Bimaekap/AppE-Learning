@@ -1,0 +1,94 @@
+nav {
+    margin-top: 2rem;
+    position: relative;
+    width: 70%;
+    display: flex;
+    /* align-items: bas eline; */
+    justify-content: space-between;
+}
+
+.ctn-profile {
+    width: 60px;
+    height: 60px;
+    margin-top: .3rem;
+    border-radius: 50%;
+    background-color: #DCF2F1;
+
+}
+
+.img-sizing {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 100%;
+}
+.btn-keluar {
+    font-size: .8rem;
+    height: 2rem;
+    margin-top: .5rem;
+    color: white;
+    text-decoration: none;
+    background-color: #332941;
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    position: relative;
+    left: 90.5%;
+    font-family: "Roboto", sans-serif;
+    transition:0.3s;
+}
+
+.img-sizing-icon-profile {
+    width: 40px;
+    top: 5px;
+    left: 90px;
+    position: relative;
+   
+    /* height: 50px; */
+}
+
+.shadow-img {
+    width: 40px;
+    height: 40px;
+    top: 5px;
+    right: -5;
+    position: absolute;
+    border-radius: 100%;
+    z-index: 1;
+    cursor: pointer;
+
+}
+
+.setting-ctn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn-keluar:hover {
+    background-color:#647D87 ;
+}
+
+.line-nav {
+    width: 110%;
+    position: absolute;
+    top: 10%;
+}
+
+
+
+#profile {
+    background-color: #F8F4EC;
+    width:10vw;
+    height: 10vh;
+    position: relative;
+    border-radius: 8px;
+    top: -3%;
+    left: 3%;
+    border: 2px solid #E6BAA3;
+    display: flex;
+}
+
+#profile h1{
+    /* paddng: 1rem; */
+    margin: .5rem 1rem;
+    font-size: .8rem;
+}
